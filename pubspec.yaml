@@ -1,0 +1,32 @@
+
+
+name: brooder_system
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # For the Dashboard Charts
+  fl_chart: ^0.66.0
+  # For Date Formatting
+  intl: ^0.19.0
+  # For nice icons (optional, but Material Icons are used in code below)
+  cupertino_icons: ^1.0.2
+  # For PDF generation
+  pdf: ^3.10.4
+  printing: ^5.11.1
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
